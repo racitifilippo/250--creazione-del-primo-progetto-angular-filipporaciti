@@ -10,6 +10,8 @@ export class Componente01Component implements OnInit {
   marca: string = "Lamborghini"
   modello: string = "Aventator"
 
+  textColor: string = "blue"
+
   constructor() { }
 
   ngOnInit(): void {
