@@ -12,6 +12,10 @@ export class Componente02Component implements OnInit {
 
   textColor: string = "blue"
 
+  onClick(){
+    this.textColor="red"
+  }
+
   constructor() { }
 
   ngOnInit(): void {
