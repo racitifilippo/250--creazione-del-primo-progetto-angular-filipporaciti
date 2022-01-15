@@ -12,6 +12,8 @@ export class Componente01Component implements OnInit {
 
   textColor: string = "blue"
 
+  comment: string = "inserisci un commento"
+
    onClick(){
      this.textColor="red"
    }

@@ -1,6 +1,10 @@
 <div>
     <p [style.color]="textColor">
         Marca {{marca}}, Modello: {{modello}}
+        <input type="text" [(ngModel)]="comment">
         <button (click)="onClick()">Mi piace</button>
     </p>
+
+    <p><small>Hai inserito un commento: {{comment}}</small></p>
+
 </div>
